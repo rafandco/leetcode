@@ -11,10 +11,6 @@ class Solution(object):
         # Se puede borrar el bucle si se pone return = numtostr == reverse[::-1]
         return numtostr == reverse
 
-        
-        # Crear una instancia de la clase Solution
-solucion = Solution()
-
 # Llamar al método isPalindrome con x = 121
-resultado = solucion.isPalindrome(121)
-print(resultado)
+result = Solution().isPalindrome(121)
+print(result)
