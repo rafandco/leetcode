@@ -17,7 +17,5 @@ class Solution(object):
         else:
             return s.index(letter)
 
-        
-
 result = Solution().firstUniqChar("leetcode")
 print(result)
